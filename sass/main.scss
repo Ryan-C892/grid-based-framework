@@ -116,62 +116,62 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
 
 // --------------------- Main Grid --------------------------
 
-.grid_1 {
+.grid1 {
     @include grid;
     width: $cell-width;
 }
 
-.grid_2 {
+.grid2 {
     @include grid;
     width: ($cell-width * 2) + ($gutter-x);
 }
 
-.grid_3 {
+.grid3 {
     @include grid;
     width: ($cell-width * 3) + ($gutter-x * 2);
 }
 
-.grid_4 {
+.grid4 {
     @include grid;
     width: ($cell-width * 4) + ($gutter-x * 3);
 }
 
-.grid_5 {
+.grid5 {
     @include grid;
     width: ($cell-width * 5) + ($gutter-x * 4);
 }
 
-.grid_6 {
+.grid6 {
     @include grid;
     width: ($cell-width * 6) + ($gutter-x * 5);
 }
 
-.grid_7 {
+.grid7 {
     @include grid;
     width: ($cell-width * 7) + ($gutter-x * 6);
 }
 
-.grid_8 {
+.grid8 {
     @include grid;
     width: ($cell-width * 8) + ($gutter-x * 7);
 }
 
-.grid_9 {
+.grid9 {
     @include grid;
     width: ($cell-width * 9) + ($gutter-x * 8);
 }
 
-.grid_10 {
+.grid10 {
     @include grid;
     width: ($cell-width * 10) + ($gutter-x * 9);
 }
 
-.grid_11 {
+.grid11 {
     @include grid;
     width: ($cell-width * 11) + ($gutter-x * 10);
 }
 
-.grid_12 {
+.grid12 {
     @include grid;
     width: ($cell-width * 12) + ($gutter-x * 11);
 }
@@ -180,101 +180,101 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
 
 // -------------------- Left Offsets ----------------------
 
-.left_offset_none {
+.left-offset-none {
     margin-left: math.div($gutter-x, 2);
 }
 
-.left_offset_1 {
+.left-offset1 {
     margin-left: $cell-width + ($gutter-x * 1.5);
 }
 
-.left_offset_2 {
+.left-offset2 {
     margin-left: ($cell-width * 2) + ($gutter-x * 2.5);
 }
 
-.left_offset_3 {
+.left-offset3 {
     margin-left: ($cell-width * 3) + ($gutter-x * 3.5);
 }
 
-.left_offset_4 {
+.left-offset4 {
     margin-left: ($cell-width * 4) + ($gutter-x * 4.5);
 }
 
-.left_offset_5 {
+.left-offset5 {
     margin-left: ($cell-width * 5) + ($gutter-x * 5.5);
 }
 
-.left_offset_6 {
+.left-offset6 {
     margin-left: ($cell-width * 6) + ($gutter-x * 6.5);
 }
 
-.left_offset_7 {
+.left-offset7 {
     margin-left: ($cell-width * 7) + ($gutter-x * 7.5);
 }
 
-.left_offset_8 {
+.left-offset8 {
     margin-left: ($cell-width * 8) + ($gutter-x * 8.5);
 }
 
-.left_offset_9 {
+.left-offset9 {
     margin-left: ($cell-width * 9) + ($gutter-x * 9.5);
 }
 
-.left_offset_10 {
+.left-offset10 {
     margin-left: ($cell-width * 10) + ($gutter-x * 10.5);
 }
 
-.left_offset_11 {
+.left-offset11 {
     margin-left: ($cell-width * 11) + ($gutter-x * 11.5);
 }
 
 // -------------------- Right Offsets ----------------------
 
-.right_offset_none {
+.right-offset-none {
     margin-right: math.div($gutter-x, 2);
 }
 
-.right_offset_1 {
+.right-offset-1 {
     margin-right: $cell-width + ($gutter-x * 1.5);
 }
 
-.right_offset_2 {
+.right-offset2 {
     margin-right: ($cell-width * 2) + ($gutter-x * 2.5);
 }
 
-.right_offset_3 {
+.right-offset3 {
     margin-right: ($cell-width * 3) + ($gutter-x * 3.5);
 }
 
-.right_offset_4 {
+.right-offset4 {
     margin-right: ($cell-width * 4) + ($gutter-x * 4.5);
 }
 
-.right_offset_5 {
+.right-offset5 {
     margin-right: ($cell-width * 5) + ($gutter-x * 5.5);
 }
 
-.right_offset_6 {
+.right-offset6 {
     margin-right: ($cell-width * 6) + ($gutter-x * 6.5);
 }
 
-.right_offset_7 {
+.right-offset7 {
     margin-right: ($cell-width * 7) + ($gutter-x * 7.5);
 }
 
-.right_offset_8 {
+.right-offset8 {
     margin-right: ($cell-width * 8) + ($gutter-x * 8.5);
 }
 
-.right_offset_9 {
+.right-offset9 {
     margin-right: ($cell-width * 9) + ($gutter-x * 9.5);
 }
 
-.right_offset_10 {
+.right-offset10 {
     margin-right: ($cell-width * 10) + ($gutter-x * 10.5);
 }
 
-.right_offset_11 {
+.right-offset11 {
     margin-right: ($cell-width * 11) + ($gutter-x * 11.5);
 }
 
@@ -297,165 +297,164 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
     }
 
     // --------------------- Main Grid --------------------------
-    .m_grid_1 {
+    .m-grid1 {
         @include grid;
         width: $cell-width;
     }
 
-    .m_grid_2 {
+    .m-grid2 {
         @include grid;
         width: ($cell-width * 2) + ($gutter-x);
     }
 
-    .m_grid_3 {
+    .m-grid3 {
         @include grid;
         width: ($cell-width * 3) + ($gutter-x * 2);
     }
 
-    .m_grid_4 {
+    .m-grid4 {
         @include grid;
         width: ($cell-width * 4) + ($gutter-x * 3);
     }
 
-    .m_grid_5 {
+    .m-grid5 {
         @include grid;
         width: ($cell-width * 5) + ($gutter-x * 4);
     }
 
-    .m_grid_6 {
+    .m-grid6 {
         @include grid;
         width: ($cell-width * 6) + ($gutter-x * 5);
     }
 
-    .m_grid_7 {
+    .m-grid7 {
         @include grid;
         width: ($cell-width * 7) + ($gutter-x * 6);
     }
 
-    .m_grid_8 {
+    .m-grid8 {
         @include grid;
         width: ($cell-width * 8) + ($gutter-x * 7);
     }
 
-    .m_grid_9 {
+    .m-grid9 {
         @include grid;
         width: ($cell-width * 9) + ($gutter-x * 8);
     }
 
-    .m_grid_10 {
+    .m-grid10 {
         @include grid;
         width: ($cell-width * 10) + ($gutter-x * 9);
     }
 
-    .m_grid_11 {
+    .m-grid11 {
         @include grid;
         width: ($cell-width * 11) + ($gutter-x * 10);
     }
 
-    .m_grid_12 {
+    .m-grid12 {
         @include grid;
         width: ($cell-width * 12) + ($gutter-x * 11);
     }
 
     // --------------------- Offsets --------------------------
-
     // -------------------- Left Offsets ----------------------
 
-    .m_left_offset_none {
+    .m-left-offset-none {
         margin-left: math.div($gutter-x, 2);
     }
 
-    .m_left_offset_1 {
+    .m-left-offset1 {
         margin-left: $cell-width + ($gutter-x * 1.5);
     }
 
-    .m_left_offset_2 {
+    .m-left-offset2 {
         margin-left: ($cell-width * 2) + ($gutter-x * 2.5);
     }
 
-    .m_left_offset_3 {
+    .m-left-offset3 {
         margin-left: ($cell-width * 3) + ($gutter-x * 3.5);
     }
 
-    .m_left_offset_4 {
+    .m-left-offset4 {
         margin-left: ($cell-width * 4) + ($gutter-x * 4.5);
     }
 
-    .m_left_offset_5 {
+    .m-left-offset5 {
         margin-left: ($cell-width * 5) + ($gutter-x * 5.5);
     }
 
-    .m_left_offset_6 {
+    .m-left-offset6 {
         margin-left: ($cell-width * 6) + ($gutter-x * 6.5);
     }
 
-    .m_left_offset_7 {
+    .m-left-offset7 {
         margin-left: ($cell-width * 7) + ($gutter-x * 7.5);
     }
 
-    .m_left_offset_8 {
+    .m-left-offset8 {
         margin-left: ($cell-width * 8) + ($gutter-x * 8.5);
     }
 
-    .m_left_offset_9 {
+    .m-left-offset9 {
         margin-left: ($cell-width * 9) + ($gutter-x * 9.5);
     }
 
-    .m_left_offset_10 {
+    .m-left-offset10 {
         margin-left: ($cell-width * 10) + ($gutter-x * 10.5);
     }
 
-    .m_left_offset_11 {
+    .m-left-offset11 {
         margin-left: ($cell-width * 11) + ($gutter-x * 11.5);
     }
 
     // -------------------- Right Offsets ----------------------
 
-    .m_right_offset_none {
+    .m-right-offset-none {
         margin-right: math.div($gutter-x, 2);
     }
 
-    .m_right_offset_1 {
+    .m-right-offset1 {
         margin-right: $cell-width + ($gutter-x * 1.5);
     }
 
-    .m_right_offset_2 {
+    .m-right-offset2 {
         margin-right: ($cell-width * 2) + ($gutter-x * 2.5);
     }
 
-    .m_right_offset_3 {
+    .m-right-offset3 {
         margin-right: ($cell-width * 3) + ($gutter-x * 3.5);
     }
 
-    .m_right_offset_4 {
+    .m-right-offset4 {
         margin-right: ($cell-width * 4) + ($gutter-x * 4.5);
     }
 
-    .m_right_offset_5 {
+    .m-right-offset5 {
         margin-right: ($cell-width * 5) + ($gutter-x * 5.5);
     }
 
-    .m_right_offset_6 {
+    .m-right-offset6 {
         margin-right: ($cell-width * 6) + ($gutter-x * 6.5);
     }
 
-    .m_right_offset_7 {
+    .m-right-offset7 {
         margin-right: ($cell-width * 7) + ($gutter-x * 7.5);
     }
 
-    .m_right_offset_8 {
+    .m-right-offset8 {
         margin-right: ($cell-width * 8) + ($gutter-x * 8.5);
     }
 
-    .m_right_offset_9 {
+    .m-right-offset9 {
         margin-right: ($cell-width * 9) + ($gutter-x * 9.5);
     }
 
-    .m_right_offset_10 {
+    .m-right-offset10 {
         margin-right: ($cell-width * 10) + ($gutter-x * 10.5);
     }
 
-    .m_right_offset_11 {
+    .m-right-offset11 {
         margin-right: ($cell-width * 11) + ($gutter-x * 11.5);
     }
 }
@@ -474,169 +473,168 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
     .container {
         margin: 0 auto;
         width: 100%;
-        min-width: 1024px;
+        max-width: 1024px;
     }
     
     // --------------------- Main Grid --------------------------
-    .l_grid_1 {
+    .l-grid1 {
         @include grid;
         width: $cell-width;
     }
 
-    .l_grid_2 {
+    .l-grid2 {
         @include grid;
         width: ($cell-width * 2) + ($gutter-x);
     }
 
-    .l_grid_3 {
+    .l-grid3 {
         @include grid;
         width: ($cell-width * 3) + ($gutter-x * 2);
     }
 
-    .l_grid_4 {
+    .l-grid4 {
         @include grid;
         width: ($cell-width * 4) + ($gutter-x * 3);
     }
 
-    .l_grid_5 {
+    .l-grid5 {
         @include grid;
         width: ($cell-width * 5) + ($gutter-x * 4);
     }
 
-    .l_grid_6 {
+    .l-grid6 {
         @include grid;
         width: ($cell-width * 6) + ($gutter-x * 5);
     }
 
-    .l_grid_7 {
+    .l-grid7 {
         @include grid;
         width: ($cell-width * 7) + ($gutter-x * 6);
     }
 
-    .l_grid_8 {
+    .l-grid8 {
         @include grid;
         width: ($cell-width * 8) + ($gutter-x * 7);
     }
 
-    .l_grid_9 {
+    .l-grid9 {
         @include grid;
         width: ($cell-width * 9) + ($gutter-x * 8);
     }
 
-    .l_grid_10 {
+    .l-grid10 {
         @include grid;
         width: ($cell-width * 10) + ($gutter-x * 9);
     }
 
-    .l_grid_11 {
+    .l-grid11 {
         @include grid;
         width: ($cell-width * 11) + ($gutter-x * 10);
     }
 
-    .l_grid_12 {
+    .l-grid12 {
         @include grid;
         width: ($cell-width * 12) + ($gutter-x * 11);
     }
 
     // --------------------- Offsets --------------------------
-
     // -------------------- Left Offsets ----------------------
 
-    .l_left_offset_none {
+    .l-left-offset-none {
         margin-left: math.div($gutter-x, 2);
     }
 
-    .l_left_offset_1 {
+    .l-left-offset1 {
         margin-left: $cell-width + ($gutter-x * 1.5);
     }
 
-    .l_left_offset_2 {
+    .l-left-offset2 {
         margin-left: ($cell-width * 2) + ($gutter-x * 2.5);
     }
 
-    .l_left_offset_3 {
+    .l-left-offset3 {
         margin-left: ($cell-width * 3) + ($gutter-x * 3.5);
     }
 
-    .l_left_offset_4 {
+    .l-left-offset4 {
         margin-left: ($cell-width * 4) + ($gutter-x * 4.5);
     }
 
-    .l_left_offset_5 {
+    .l-left-offset5 {
         margin-left: ($cell-width * 5) + ($gutter-x * 5.5);
     }
 
-    .l_left_offset_6 {
+    .l-left-offset6 {
         margin-left: ($cell-width * 6) + ($gutter-x * 6.5);
     }
 
-    .l_left_offset_7 {
+    .l-left-offset7 {
         margin-left: ($cell-width * 7) + ($gutter-x * 7.5);
     }
 
-    .l_left_offset_8 {
+    .l-left-offset8 {
         margin-left: ($cell-width * 8) + ($gutter-x * 8.5);
     }
 
-    .l_left_offset_9 {
+    .l-left-offset9 {
         margin-left: ($cell-width * 9) + ($gutter-x * 9.5);
     }
 
-    .l_left_offset_10 {
+    .l-left-offset10 {
         margin-left: ($cell-width * 10) + ($gutter-x * 10.5);
     }
 
-    .l_left_offset_11 {
+    .l-left-offset11 {
         margin-left: ($cell-width * 11) + ($gutter-x * 11.5);
     }
 
     // -------------------- Right Offsets ----------------------
 
-    .l_right_offset_none {
+    .l-right-offset-none {
         margin-right: math.div($gutter-x, 2);
     }
 
-    .l_right_offset_1 {
+    .l-right-offset1 {
         margin-right: $cell-width + ($gutter-x * 1.5);
     }
 
-    .l_right_offset_2 {
+    .l-right-offset2 {
         margin-right: ($cell-width * 2) + ($gutter-x * 2.5);
     }
 
-    .l_right_offset_3 {
+    .l-right-offset3 {
         margin-right: ($cell-width * 3) + ($gutter-x * 3.5);
     }
 
-    .l_right_offset_4 {
+    .l-right-offset4 {
         margin-right: ($cell-width * 4) + ($gutter-x * 4.5);
     }
 
-    .l_right_offset_5 {
+    .l-right-offset5 {
         margin-right: ($cell-width * 5) + ($gutter-x * 5.5);
     }
 
-    .l_right_offset_6 {
+    .l-right-offset6 {
         margin-right: ($cell-width * 6) + ($gutter-x * 6.5);
     }
 
-    .l_right_offset_7 {
+    .l-right-offset7 {
         margin-right: ($cell-width * 7) + ($gutter-x * 7.5);
     }
 
-    .l_right_offset_8 {
+    .l-right-offset8 {
         margin-right: ($cell-width * 8) + ($gutter-x * 8.5);
     }
 
-    .l_right_offset_9 {
+    .l-right-offset9 {
         margin-right: ($cell-width * 9) + ($gutter-x * 9.5);
     }
 
-    .l_right_offset_10 {
+    .l-right-offset10 {
         margin-right: ($cell-width * 10) + ($gutter-x * 10.5);
     }
 
-    .l_right_offset_11 {
+    .l-right-offset11 {
         margin-right: ($cell-width * 11) + ($gutter-x * 11.5);
     }
 }
@@ -672,165 +670,164 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
     }
 
     // --------------------- Main Grid --------------------------
-    .s_grid_1 {
+    .s-grid_ {
         @include grid;
         width: $cell-width;
     }
 
-    .s_grid_2 {
+    .s-grid2 {
         @include grid;
         width: ($cell-width * 2) + ($gutter-x);
     }
 
-    .s_grid_3 {
+    .s-grid3 {
         @include grid;
         width: ($cell-width * 3) + ($gutter-x * 2);
     }
 
-    .s_grid_4 {
+    .s-grid4 {
         @include grid;
         width: ($cell-width * 4) + ($gutter-x * 3);
     }
 
-    .s_grid_5 {
+    .s-grid5 {
         @include grid;
         width: ($cell-width * 5) + ($gutter-x * 4);
     }
 
-    .s_grid_6 {
+    .s-grid6 {
         @include grid;
         width: ($cell-width * 6) + ($gutter-x * 5);
     }
 
-    .s_grid_7 {
+    .s-grid7 {
         @include grid;
         width: ($cell-width * 7) + ($gutter-x * 6);
     }
 
-    .s_grid_8 {
+    .s-grid8 {
         @include grid;
         width: ($cell-width * 8) + ($gutter-x * 7);
     }
 
-    .s_grid_9 {
+    .s-grid9 {
         @include grid;
         width: ($cell-width * 9) + ($gutter-x * 8);
     }
 
-    .s_grid_10 {
+    .s-grid10 {
         @include grid;
         width: ($cell-width * 10) + ($gutter-x * 9);
     }
 
-    .s_grid_11 {
+    .s-grid11 {
         @include grid;
         width: ($cell-width * 11) + ($gutter-x * 10);
     }
 
-    .s_grid_12 {
+    .s-grid12 {
         @include grid;
         width: ($cell-width * 12) + ($gutter-x * 11);
     }
 
     // --------------------- Offsets --------------------------
-
     // -------------------- Left Offsets ----------------------
 
-    .s_left_offset_none {
+    .s-left-offset-none {
         margin-left: math.div($gutter-x, 2);
     }
 
-    .s_left_offset_1 {
+    .s-left-offset1 {
         margin-left: $cell-width + ($gutter-x * 1.5);
     }
 
-    .s_left_offset_2 {
+    .s-left-offset2 {
         margin-left: ($cell-width * 2) + ($gutter-x * 2.5);
     }
 
-    .s_left_offset_3 {
+    .s-left-offset3 {
         margin-left: ($cell-width * 3) + ($gutter-x * 3.5);
     }
 
-    .s_left_offset_4 {
+    .s-left-offset4 {
         margin-left: ($cell-width * 4) + ($gutter-x * 4.5);
     }
 
-    .s_left_offset_5 {
+    .s-left-offset5 {
         margin-left: ($cell-width * 5) + ($gutter-x * 5.5);
     }
 
-    .s_left_offset_6 {
+    .s-left-offset6 {
         margin-left: ($cell-width * 6) + ($gutter-x * 6.5);
     }
 
-    .s_left_offset_7 {
+    .s-left-offset7 {
         margin-left: ($cell-width * 7) + ($gutter-x * 7.5);
     }
 
-    .s_left_offset_8 {
+    .s-left-offset8 {
         margin-left: ($cell-width * 8) + ($gutter-x * 8.5);
     }
 
-    .s_left_offset_9 {
+    .s-left-offset9 {
         margin-left: ($cell-width * 9) + ($gutter-x * 9.5);
     }
 
-    .s_left_offset_10 {
+    .s-left-offset10 {
         margin-left: ($cell-width * 10) + ($gutter-x * 10.5);
     }
 
-    .s_left_offset_11 {
+    .s-left-offset11 {
         margin-left: ($cell-width * 11) + ($gutter-x * 11.5);
     }
 
     // -------------------- Right Offsets ----------------------
 
-    .s_right_offset_none {
+    .s-right-offset-none {
         margin-right: math.div($gutter-x, 2);
     }
 
-    .s_right_offset_1 {
+    .s-right-offset1 {
         margin-right: $cell-width + ($gutter-x * 1.5);
     }
 
-    .s_right_offset_2 {
+    .s-right-offset2 {
         margin-right: ($cell-width * 2) + ($gutter-x * 2.5);
     }
 
-    .s_right_offset_3 {
+    .s-right-offset3 {
         margin-right: ($cell-width * 3) + ($gutter-x * 3.5);
     }
 
-    .s_right_offset_4 {
+    .s-right-offset4 {
         margin-right: ($cell-width * 4) + ($gutter-x * 4.5);
     }
 
-    .s_right_offset_5 {
+    .s-right-offset5 {
         margin-right: ($cell-width * 5) + ($gutter-x * 5.5);
     }
 
-    .s_right_offset_6 {
+    .s-right-offset6 {
         margin-right: ($cell-width * 6) + ($gutter-x * 6.5);
     }
 
-    .s_right_offset_7 {
+    .s-right-offset7 {
         margin-right: ($cell-width * 7) + ($gutter-x * 7.5);
     }
 
-    .s_right_offset_8 {
+    .s-right-offset8 {
         margin-right: ($cell-width * 8) + ($gutter-x * 8.5);
     }
 
-    .s_right_offset_9 {
+    .s-right-offset9 {
         margin-right: ($cell-width * 9) + ($gutter-x * 9.5);
     }
 
-    .s_right_offset_10 {
+    .s-right-offset10 {
         margin-right: ($cell-width * 10) + ($gutter-x * 10.5);
     }
 
-    .s_right_offset_11 {
+    .s-right-offset11 {
         margin-right: ($cell-width * 11) + ($gutter-x * 11.5);
     }
 }
