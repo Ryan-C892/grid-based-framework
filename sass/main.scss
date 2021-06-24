@@ -177,7 +177,6 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
 }
 
 // --------------------- Offsets --------------------------
-
 // -------------------- Left Offsets ----------------------
 
 .left-offset-none {
@@ -297,6 +296,7 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
     }
 
     // --------------------- Main Grid --------------------------
+
     .m-grid1 {
         @include grid;
         width: $cell-width;
@@ -477,6 +477,7 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
     }
     
     // --------------------- Main Grid --------------------------
+
     .l-grid1 {
         @include grid;
         width: $cell-width;
@@ -670,7 +671,8 @@ $cell-width: math.div((100% - ($grid-columns * $gutter-x)), $grid-columns);
     }
 
     // --------------------- Main Grid --------------------------
-    .s-grid_ {
+
+    .s-grid1 {
         @include grid;
         width: $cell-width;
     }
